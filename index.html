@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HackForest - Cybersecurity Training</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <canvas id="canvas-background"></canvas>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>HackForest</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#about">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="ticker-wrap">
+            <div class="edge-fade"></div>
+            <div class="scan-line"></div>
+            <div class="ticker">
+                <!-- First copy - English warning -->
+                <div class="ticker-item">
+                    <span class="warning-icon">⚠️</span> <strong>WARNING:</strong> HackForest is for educational training only. We are not responsible for misuse of skills in illegal activities. 
+                    <span class="warning-icon">⚠️</span> 
+                    <!-- Urdu warning -->
+                    <span class="urdu-text">انتباہ: ہیک فارسٹ صرف تعلیمی تربیت کے لئے ہے۔ ہم غیر قانونی سرگرمیوں میں مہارتوں کے غلط استعمال کے ذمہ دار نہیں ہیں۔</span>
+                    <span class="warning-icon">⚠️</span>
+                </div>
+                <!-- Second copy for seamless transition -->
+                <div class="ticker-item">
+                    <span class="warning-icon">⚠️</span> <strong>WARNING:</strong> HackForest is for educational training only. We are not responsible for misuse of skills in illegal activities. 
+                    <span class="warning-icon">⚠️</span> 
+                    <!-- Urdu warning -->
+                    <span class="urdu-text">انتباہ: ہیک فارسٹ صرف تعلیمی تربیت کے لئے ہے۔ ہم غیر قانونی سرگرمیوں میں مہارتوں کے غلط استعمال کے ذمہ دار نہیں ہیں۔</span>
+                    <span class="warning-icon">⚠️</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Master Offensive Security skills</h1>
+                <p>Join our expert-led live sessions and become a cybersecurity professional</p>
+                <a href="#courses" class="btn">Explore Courses</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <!-- The feature box has been removed as per user request -->
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2 class="section-title">Our Live Training Courses</h2>
+            <div class="course-grid">
+                <div class="course-card">
+                    <div class="course-image">
+                        <span class="course-level">Beginner</span>
+                    </div>
+                    <div class="course-content">
+                        <h3>Advanced Ethical Hacking</h3>
+                        <p>Learn the basics of cybersecurity, including threat detection, prevention, and security best practices.</p>
+                        <div class="course-details">
+                            <span><i class="far fa-clock"></i> 8 Weeks</span>
+                            <span><i class="fas fa-video"></i> Live Sessions</span>
+                        </div>
+                        <div class="course-price">
+                            <span>$499</span>
+                            <a href="#courses" class="btn">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="course-card">
+                    <div class="course-image">
+                        <span class="course-level">Intermediate</span>
+                    </div>
+                    <div class="course-content">
+                        <h3>Red Team Ops</h3>
+                        <p>Master offensive security techniques, emulate adversary tactics, and conduct full-scope red team operations.</p>
+                        <div class="course-details">
+                            <span><i class="far fa-clock"></i> 10 Weeks</span>
+                            <span><i class="fas fa-video"></i> Live Sessions</span>
+                        </div>
+                        <div class="course-price">
+                            <span>$799</span>
+                            <a href="#courses" class="btn">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="course-card">
+                    <div class="course-image">
+                        <span class="course-level">Advanced</span>
+                    </div>
+                    <div class="course-content">
+                        <h3>Advanced Windows AV Evasion</h3>
+                        <p>Explore sophisticated techniques to bypass modern antivirus solutions and endpoint detection on Windows systems.</p>
+                        <div class="course-details">
+                            <span><i class="far fa-clock"></i> 12 Weeks</span>
+                            <span><i class="fas fa-video"></i> Live Sessions</span>
+                        </div>
+                        <div class="course-price">
+                            <span>$999</span>
+                            <a href="#courses" class="btn">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-image">
+                        <span class="course-level">Advanced</span>
+                    </div>
+                    <div class="course-content">
+                        <h3>Malware Development</h3>
+                        <p>Dive deep into the art of malware creation for offensive purposes, understanding its lifecycle and evasion tactics.</p>
+                        <div class="course-details">
+                            <span><i class="far fa-clock"></i> 14 Weeks</span>
+                            <span><i class="fas fa-video"></i> Live Sessions</span>
+                        </div>
+                        <div class="course-price">
+                            <span>$1199</span>
+                            <a href="#courses" class="btn">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">About HackForest</h2>
+                <p>HackForest is a premier provider of live online cybersecurity training. Our mission is to bridge the cybersecurity skills gap by offering high-quality, practical training led by industry experts.</p>
+                <p>We focus on hands-on learning experiences that prepare students for real-world cybersecurity challenges. Our courses are designed to provide practical skills that can be immediately applied in professional settings.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>HackForest</h2>
+                    <p>Empowering cybersecurity professionals through live training.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#about">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-courses">
+                    <h3>Popular Courses</h3>
+                    <ul>
+                        <li><a href="#courses">Advanced Ethical Hacking</a></li>
+                        <li><a href="#courses">Red Team Ops</a></li>
+                        <li><a href="#courses">Advanced Windows AV Evasion</a></li>
+                        <li><a href="#courses">Malware Development</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect With Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 HackForest. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="hackerBackground.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
